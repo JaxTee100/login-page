@@ -4,255 +4,23 @@
 }
 body{
     box-sizing: border-box;
+
+    overflow-x: hidden;
 }
 /* container styling */
 .container{
     
-    width: 100;
-    padding: 200px 400px;
+    padding: 0;
+    margin: 0;
     background-color: #f5f5f5;
 }
 
 
 /* header */
-.container header{
-    background-color: #ffffff;
-    padding: 25px 20px;
-    border: 0.5px solid #9B9B9E;
-}
-
-.container header h1{
-    color: #7C6992;
-    font-size: 50px;
-    margin-left: 50px;
-}
-.container header p{
-    
-    color: #7C6992;
-    font-size: 10px;
-    margin-left: 95px;
-    
-}
-
-/* main page */
-
-.container main{
-    display: flex;
-    
-}
-
-/* for login page */
-
-.container main .sign-up-image{
-    width: 40%;
-    background-color: #979797;
-    position: relative;
-}
-.container main .sign-up-image h1{
-    position: absolute;
-    top: 50%;
-    right: 45%;
-    margin: 0 auto;
-    font-size: 80px;
-    font-weight: 400;
-    line-height: 22px;
-    color: rgba(0, 0, 0, 0.2);
 
 
-}
-.container main .sign-up-image p{
-    position: absolute;
-    top: 95%;
-    left: 20%;
-    color: #424243;
-    font-size: 12px;
-
-}
 
 
-.container main .sign-up-page{
-    background-color: #ffffff;
-    width: 60%;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-}
-
-.container main .sign-up-page form {
-    padding: 0 40px;
-    margin: 0 auto;
-    
-}
-.container main .sign-up-page h4{
-    color: #424243;
-    padding: 5px 20px;
-    font-size: 12px;
-}
-
-.container main .sign-up-page form h1{
-    font-weight: 300;
-    padding: 5px 20px;
-    font-size: 54px;
-    color: #424243;
-}
-.container main .sign-up-page form p{
-    font-weight: 400;
-    padding: 10px 20px;
-    font-size: 16px;
-    line-height: 23px;
-    margin-bottom: 50px;
-    color: #424243;
-}
-.container main .sign-up-page form .form-inputs {
-    padding: 0 20px;
-    margin-bottom: 40px;
-    
-    
-    
-}
-
-.container main .sign-up-page form label{
-    color: #424243;
-    font-size: 14px;
-    line-height: 23px;
-}
-.container main .sign-up-page form label span{
-    color: #9D2872;
-}
-.container main .sign-up-page form .input-details{
-    
-    width: 100%;
-    height: 45px;
-    margin-bottom: 20px;
-    border: 1px solid #424243;
-    outline: none;
-    font-size: 20px;
-    border-radius: 4px;
-    
-    
-}
-.container main .sign-up-page form .terms{
-    padding: 5px;
-}
-.container main .sign-up-page form .terms input{
-    margin-right: 15px;
-    width: 16px;
-    height: 24px;
-    
-}
-.container main .sign-up-page form .terms .check-input{
-    display: flex;
-    align-items: center;
-    padding: 5px;
-    font-size: 12px;
-}
-
-/* submit button */
-
-.btn{
-    background-color: #7C6992;
-    height: 44px;
-    width: 143px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    border: none;
-    color: #ffffff;
-    font-weight: 400;
-    font-size: 14px;
-    margin-top: 50px;
-}
-
-.sign-up-page .already{
-    
-    margin-top: 40px;
-    margin-left: 20px;
-    padding: 20px 50px;
-}
-
-/* footer */
-.container footer{
-    background-color: #232323;
-    padding: 50px 0 5px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.container footer .about-text{
-    color: #ffffff;
-    padding: 20px 5px 50px 5px;
-    font-size: 12px;
-    border-bottom: 1px solid #4f4f4f;
-    width: 80%;
-    margin-bottom: 20px;
-    line-height: 20px;
-
-}
-.container footer .footnotes{
-    display: flex;
-    padding: 30px 20px 20px 20px;
-    margin-top: 20px;
-    align-items: flex-end;
-    
-    
-    width: 80%;
-    
-    
-}
-.container footer .footnotes .rivi{
-    margin-right: 60px;
-    color: #ffffff;
-    
-}
-.container footer .footnotes .rivi h1{
-    font-size: 50px;
-    
-}
-.container footer .footnotes .rivi p{
-    font-size: 10px;
-    margin-left: 45px;
-}
-.container footer .footnotes .copyright{
-    margin-right: auto;
-    line-height: 35px;
-    display: flex;
-    flex-direction: column;
-    
-    justify-content: center;
-    width: 50%;
-}
-.container footer .footnotes .copyright p{
-    font-size: 12px;
-    color: #ffffff;
-    font-weight: 400;
-}
-.container footer .footnotes .copyright div{
-    display: flex;
-    justify-content: space-between;
-    color: #4f4f4f;
-    font-size: 12px;
-    font-weight: 400;
-}
-.container footer .footnotes .powered{
-    color: #ffffff;
-    padding: 5px;
-   
-    
-}
-.container footer .footnotes .powered p{
-    font-size: 14px;
-    margin-bottom: 10px;
-    font-weight: 400;
-    line-height: 22px;
-    text-align: center;
-    
-}
-.container footer .footnotes .powered h2{
-    font-size: 20px;
-    font-weight: 800;
-}
 
 
 
@@ -272,4 +40,17 @@ body{
 
 .btn-line span{
     margin-top: 45px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container{
+    
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background-color: #f5f5f5;
+        overflow-x: hidden;
+    }
+
 }

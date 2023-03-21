@@ -1,17 +1,17 @@
 
 import './App.css';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import MainRegister from './components/MainRegister';
+import {Route, Routes, Navigate} from 'react-router-dom'
+import Registration from './pages/registration';
+import Login from './pages/login';
+import Main from './pages/Main';
 
 function App() {
   return (
-    <div className='container'>
-      <Header />
-      <MainRegister />
-      <Footer />
-      
-    </div>
+    <Routes>
+      <Route path="/" element={<Main />} />
+      <Route path="/register" element={<Registration />} />
+      <Route path="/login" element={<Login />} />
+    </Routes>
   )
 }
 

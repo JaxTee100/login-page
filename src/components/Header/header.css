@@ -1,0 +1,31 @@
+.container header{
+    position: fixed;
+    z-index: 30;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 15px 20px;
+    border: 0.5px solid #9B9B9E;
+}
+
+.container header h1{
+    color: #7C6992;
+    font-size: 50px;
+    margin-left: 50px;
+}
+.container header p{
+    
+    color: #7C6992;
+    font-size: 10px;
+    margin-left: 95px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .container header{
+        position: fixed;
+        z-index: 30;
+        width: 100%;
+        background-color: #ffffff;
+        border: 0.5px solid #9B9B9E;
+    }
+}
